@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.library</groupId>
+    <artifactId>LibraryManagement</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>LibraryManagement</name>
+    <description>A basic Spring application for managing library book operations using Setter Injection and XML-based configuration</description>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- Spring Core + Context (gives you ApplicationContext, beans, DI) -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.14</version>
+        </dependency>
+    </dependencies>
+
+</project>
